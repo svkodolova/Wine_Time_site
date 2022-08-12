@@ -1,7 +1,7 @@
 body {
     max-width: 1200px;
     margin: 0 auto;
-    
+    /*TODO: ПОСМОТРИ КАКИЕ ЕЩЕ СВОЙСТВА СТАВЯТСЯ В ТЕГ BODY И ЗАЧЕМ?*/
 }
 
 
@@ -11,22 +11,22 @@ body {
     width: 100%;
     align-items: center;
     gap: 50px;
+    /*TODO: пройдись потом autoprefix потом откатись, посмотри как он работает*/
 
-    
 }
 
 .flex-conainer div {
     display: flex;
     flex-direction: column;
-    
-    
-    
+
+
+
 }
 
 .information-block {
 
-    width: 50%;  
-    
+    width: 50%;
+
 }
 
 .information-block section {
@@ -37,7 +37,7 @@ body {
     box-sizing: border-box;
     border-radius: 7px;
     width: 35%;
-    background: #456380;
+    background: #456380; /*НЕ ДУБЛИРУЙ ЦВЕТА TODO: ПОДУМАЙ КАК РЕШИТЬ ЭТУ ПРОБЛЕМУ*/
     padding: 15px 10px;
     text-align: center;
 
@@ -56,20 +56,20 @@ body {
 
 td {
    width: 11%;
-   padding: 5px 0px; 
+   padding: 5px 0px; /*НЕТ 0px такой величины*/
    vertical-align: top;
 }
 
 .extra {
-    
+
     width: 25%;
-   
+
 }
 
 .critic {
     display: inline-block;
     width: auto;
-    border: 1px solid #456380;
+    border: 1px solid #456380; /*НЕ ДУБЛИРУЙ ЦВЕТА TODO: ПОДУМАЙ КАК РЕШИТЬ ЭТУ ПРОБЛЕМУ*/
     border-radius: 7px;
     padding: 2px;
 }
@@ -79,10 +79,11 @@ td {
     box-sizing: border-box;
     border-radius: 7px;
     border-style: none;
-    width: 22px;
+    width: 22px; /*ТУТ ПЛЯШЕТ ОТ ФИКСИРОВАННОЙ ВЫСОТЫ, А ДОЛЖНО ОТ РАЗМЕРА ШРИФТА
+    TODO: СДЕЛАЙ ОТНОСИТЕЛЬНЫМИ ЭЛЕМЕНТЫ -- ИСПОЛЬЗУЙ ТОЛЬКО PADDING как в макете*/
     height: 22px;
     padding: 5px;
-    background: #456380;
+    background: #456380; /*НЕ ДУБЛИРУЙ ЦВЕТА TODO: ПОДУМАЙ КАК РЕШИТЬ ЭТУ ПРОБЛЕМУ*/
     color: white;
     font-size: 10px;
     text-align: center;
@@ -91,7 +92,7 @@ td {
 .critic-name {
     display: inline-block;
     text-align: center;
-    color: #456380;
+    color: #456380; /*НЕ ДУБЛИРУЙ ЦВЕТА TODO: ПОДУМАЙ КАК РЕШИТЬ ЭТУ ПРОБЛЕМУ*/
     font-size: 10px;
     margin: 0 5px;
     
